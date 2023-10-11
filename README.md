@@ -1,51 +1,35 @@
-# Bank-Application
+# Bank Application README
 
-Introduction
-The Bank Application is a simple command-line program that allows users to perform various banking transactions. It's designed to demonstrate basic banking functionalities, including managing checking and savings accounts, making deposits and withdrawals, transferring funds between accounts, and paying bills.
+This is a simple command-line-based bank application implemented in Java. It provides basic banking operations such as checking account balance, making deposits and withdrawals, viewing transaction history, transferring money between accounts, and paying bills.
 
-Features
-The Bank Application includes the following features:
+## Features
 
-Account Types
+1. **Checking and Savings Accounts**: The application allows users to choose between checking and savings accounts.
 
-Checking Account
-Savings Account
-Other Options
-Operations for Checking and Savings Accounts
+2. **Deposits and Withdrawals**: Users can deposit and withdraw money from their accounts.
 
-Deposit funds
-Withdraw funds
-View transaction history (bank statement)
-Other Banking Options
+3. **Transaction History**: Users can view their transaction history to keep track of their financial activities.
 
-Transfer funds between checking and savings accounts
-Pay bills
-Transaction History
+4. **Transfer**: The application enables users to transfer money between checking and savings accounts.
 
-The application maintains transaction history for both checking and savings accounts.
-Getting Started
-System Requirements: Ensure that you have Java installed on your system.
+5. **Bill Payment**: Users can pay bills using their savings account balance.
 
-Running the Application:
+6. **Exit Option**: Users can choose to exit the program at any time.
 
-Compile the BankApplication.java file using a Java compiler.
-Run the compiled program.
-Application Usage:
+## How to Use
 
-The program provides a menu for users to select account types and operations.
-Users can perform various banking transactions by selecting the appropriate options from the menu.
-Account Types
-Checking Account: Used for regular transactions like deposits and withdrawals.
-Savings Account: A savings account for storing funds.
-Additional Notes
-The application contains sample data for bills and account balances.
-Code Structure
-The code is organized into a single class named BankApplication.
-It utilizes the ArrayList data structure to maintain transaction history.
-The application is structured around user-defined functions for different banking operations.
-Potential Improvements
-To make the application more realistic, you could consider implementing authentication and user account management.
-Enhance the code to provide better error handling and user feedback.
-Author
-This Bank Application was developed by an anonymous author as a simple demonstration.
-Note: This code is intended for educational purposes and may require additional improvements for real-world banking applications. Always be cautious when dealing with financial transactions and security.
+1. Run the `BankApplication` class.
+2. Choose the account type (checking or savings) and the desired operation.
+3. Follow the prompts to perform the selected operation.
+4. View transaction history to check your financial activities.
+
+## Prerequisites
+
+- Java Development Kit (JDK) installed on your system.
+
+## Getting Started
+
+1. Clone this repository to your local machine.
+
+```shell
+git clone <repository-url>
